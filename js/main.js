@@ -16,3 +16,9 @@ function initTimer(clockID) {
 }
 
 initTimer("clock");
+
+InlineEditor
+.create( document.querySelector('#notes'))
+.catch( error => {
+    console.error( error );
+} );
